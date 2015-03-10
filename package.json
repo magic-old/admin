@@ -1,0 +1,18 @@
+{
+  "name": "magic-admin",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "babel src/ --out-file index.js --source-maps"
+  },
+  "dependencies": {
+    "express": "file:../../node_modules/express",
+    "magic-log": "file:../magic-log",
+    "stylus": "file:../../node_modules/stylus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/express-magic/magic-admin.git"
+  }
+}
